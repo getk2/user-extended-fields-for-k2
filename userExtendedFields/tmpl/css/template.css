@@ -1,0 +1,32 @@
+/**
+ * @version		2.1
+ * @package		User Extended Fields for K2 (K2 plugin)
+ * @author    JoomlaWorks - http://www.joomlaworks.net
+ * @copyright	Copyright (c) 2006 - 2012 JoomlaWorks Ltd. All rights reserved.
+ * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ */
+
+div.userExtendedFields {}
+	div.userExtendedFieldsContactDetails {}
+	div.userExtendedFieldsContactDetails h3 {}
+	div.userExtendedFieldsContactDetails ul {list-style:none;margin:0;padding:0;}
+	div.userExtendedFieldsContactDetails ul li {margin:0;padding:0 0 4px 0;clear:both;}
+	div.userExtendedFieldsContactDetails ul li div.userElementLabel {float:left;width:25%;font-weight:bold;}
+	div.userExtendedFieldsContactDetails ul li div.userElementValue {float:left;width:70%;}
+
+	div.userExtendedFieldsSocialProfiles {clear:both;margin-top:16px;}
+	div.userExtendedFieldsSocialProfiles h3 {}
+	div.userExtendedFieldsSocialProfiles a.uefSocialLink {background-repeat:no-repeat;background-position:0 50%;padding:0;margin-right:4px;display:block;float:left;width:16px;height:16px;}
+	div.userExtendedFieldsSocialProfiles a.uefSocialLink span {display:none;}
+
+	/* Social link icons */
+	.facebook {background-image:url(../images/facebook_16.png);}
+	.twitter {background-image:url(../images/twitter_16.png);}
+	.google {background-image:url(../images/gplus_16.png);}
+	.linkedin {background-image:url(../images/linkedin_16.png);}
+	.youtube {background-image:url(../images/youtube_16.png);}
+	.vimeo {background-image:url(../images/vimeo_16.png);}
+	.blip {background-image:url(../images/bliptv_16.png);}
+	.vimeo {background-image:url(../images/vimeo_16.png);}
+	.flickr {background-image:url(../images/flickr_16.png);}
+	.picasa {background-image:url(../images/picasa_16.png);}
