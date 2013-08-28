@@ -15,3 +15,11 @@ This is a K2 plugin and it requires that the component K2 version 2.5.2 or later
 ## USEFUL LINKS
 Visit the K2 website: http://getk2.org
 Join the K2 community (support, tutorials, videos): http://getk2.org/community
+
+
+## DEMO
+Demo page of the plugin in a K2 user profile page:  http://getk2.org/redir/demo/uef
+
+
+## LEARN MORE
+Visit the User Extended Fields for K2 product page at: http://getk2.org/redir/uef
