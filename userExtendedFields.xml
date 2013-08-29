@@ -11,16 +11,6 @@
 	<description>PLG_K2_UEF_USER_EXTENDED_FIELDS_FOR_K2_BY_JOOMLAWORKS</description>
 
 	<!-- Joomla! plugin parameters -->
-	<params addpath="/administrator/components/com_k2/elements">
-		<param name="contactDetails" type="radio" default="0" label="PLG_K2_UEF_SHOW_USER_CONTACT_DETAILS_IN_PUBLIC" description="">
-			<option value="0">PLG_K2_UEF_NO</option>
-			<option value="1">PLG_K2_UEF_YES</option>
-		</param>
-		<param name="socialProfiles" type="radio" default="1" label="PLG_K2_UEF_SHOW_USER_SOCIAL_PROFILES_IN_PUBLIC" description="">
-			<option value="0">PLG_K2_UEF_NO</option>
-			<option value="1">PLG_K2_UEF_YES</option>
-		</param>
-	</params>
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
@@ -37,12 +27,12 @@
 	</config>
 
 	<!-- K2 backend field parameters -->
-	<params group="user" addpath="/administrator/components/com_k2/elements">
-		<param name="address" type="text" size="40" default="" label="PLG_K2_UEF_ADDRESS" description=""/>
-		<param name="city" type="text" size="40" default="" label="PLG_K2_UEF_CITY" description=""/>
-		<param name="stateOrProvince" type="text" size="40" default="" label="PLG_K2_UEF_STATE_OR_PROVINCE" description=""/>
-		<param name="zipCode" type="text" size="40" default="" label="PLG_K2_UEF_ZIP_CODE" description=""/>
-		<param name="country" type="list" default="0" label="PLG_K2_UEF_COUNTRY" description="">
+	<fields group="user" addfieldpath="/administrator/components/com_k2/elements">
+		<field name="address" type="text" size="40" default="" label="PLG_K2_UEF_ADDRESS" description=""/>
+		<field name="city" type="text" size="40" default="" label="PLG_K2_UEF_CITY" description=""/>
+		<field name="stateOrProvince" type="text" size="40" default="" label="PLG_K2_UEF_STATE_OR_PROVINCE" description=""/>
+		<field name="zipCode" type="text" size="40" default="" label="PLG_K2_UEF_ZIP_CODE" description=""/>
+		<field name="country" type="list" default="0" label="PLG_K2_UEF_COUNTRY" description="">
 			<option value="0" selected="selected">PLG_K2_UEF_SELECT_COUNTRY</option>
 			<option value="Afghanistan">Afghanistan</option>
 			<option value="Albania">Albania</option>
@@ -283,19 +273,19 @@
 			<option value="Yemen">Yemen</option>
 			<option value="Zambia">Zambia</option>
 			<option value="Zimbabwe">Zimbabwe</option>
-		</param>
-		<param name="telephone" type="text" size="40" default="" label="PLG_K2_UEF_TELEPHONE" description=""/>
-		<param name="mobile" type="text" size="40" default="" label="PLG_K2_UEF_MOBILE" description=""/>
-		<param name="facebook" type="text" size="40" default="" label="PLG_K2_UEF_FACEBOOK" description=""/>
-		<param name="twitter" type="text" size="40" default="" label="PLG_K2_UEF_TWITTER" description=""/>
-		<param name="google" type="text" size="40" default="" label="PLG_K2_UEF_GOOGLE_PLUS" description=""/>
-		<param name="linkedin" type="text" size="40" default="" label="PLG_K2_UEF_LINKEDIN" description=""/>
-		<param name="youtube" type="text" size="40" default="" label="PLG_K2_UEF_YOUTUBE" description=""/>
-		<param name="vimeo" type="text" size="40" default="" label="PLG_K2_UEF_VIMEO" description=""/>
-		<param name="blip" type="text" size="40" default="" label="PLG_K2_UEF_BLIP_TV" description=""/>
-		<param name="flickr" type="text" size="40" default="" label="PLG_K2_UEF_FLICKR" description=""/>
-		<param name="picasa" type="text" size="40" default="" label="PLG_K2_UEF_PICASA" description=""/>
-	</params>
+		</field>
+		<field name="telephone" type="text" size="40" default="" label="PLG_K2_UEF_TELEPHONE" description=""/>
+		<field name="mobile" type="text" size="40" default="" label="PLG_K2_UEF_MOBILE" description=""/>
+		<field name="facebook" type="text" size="40" default="" label="PLG_K2_UEF_FACEBOOK" description=""/>
+		<field name="twitter" type="text" size="40" default="" label="PLG_K2_UEF_TWITTER" description=""/>
+		<field name="google" type="text" size="40" default="" label="PLG_K2_UEF_GOOGLE_PLUS" description=""/>
+		<field name="linkedin" type="text" size="40" default="" label="PLG_K2_UEF_LINKEDIN" description=""/>
+		<field name="youtube" type="text" size="40" default="" label="PLG_K2_UEF_YOUTUBE" description=""/>
+		<field name="vimeo" type="text" size="40" default="" label="PLG_K2_UEF_VIMEO" description=""/>
+		<field name="blip" type="text" size="40" default="" label="PLG_K2_UEF_BLIP_TV" description=""/>
+		<field name="flickr" type="text" size="40" default="" label="PLG_K2_UEF_FLICKR" description=""/>
+		<field name="picasa" type="text" size="40" default="" label="PLG_K2_UEF_PICASA" description=""/>
+	</fields>
 	<files>
 		<filename plugin="userExtendedFields">userExtendedFields.php</filename>
 		<folder>userExtendedFields</folder>
