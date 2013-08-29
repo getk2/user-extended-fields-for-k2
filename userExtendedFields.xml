@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<install version="1.5" type="plugin" group="k2" method="upgrade">
+<extension version="2.5" type="plugin" group="k2" method="upgrade">
 	<name>User Extended Fields for K2 (by JoomlaWorks)</name>
 	<author>JoomlaWorks</author>
 	<authorEmail>contact@joomlaworks.net</authorEmail>
 	<authorUrl>www.joomlaworks.net</authorUrl>
-	<copyright>Copyright (c) 2006-2011 JoomlaWorks Ltd. All rights reserved.</copyright>
-	<creationDate>November 20th, 2012</creationDate>
+	<copyright>Copyright (c) 2006-2013 JoomlaWorks Ltd. All rights reserved.</copyright>
+	<creationDate>August 29th, 2013</creationDate>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<version>2.1</version>
+	<version>3.0</version>
 	<description>PLG_K2_UEF_USER_EXTENDED_FIELDS_FOR_K2_BY_JOOMLAWORKS</description>
 
 	<!-- Joomla! plugin parameters -->
@@ -304,4 +304,4 @@
 		<language tag="en-GB">language/en-GB/en-GB.plg_k2_userextendedfields.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.plg_k2_userextendedfields.sys.ini</language>
 	</languages>
-</install>
+</extension>
