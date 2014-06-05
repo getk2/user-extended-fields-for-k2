@@ -1,11 +1,13 @@
 User Extended Fields for K2
 =========
 
-"User Extended Fields for K2" extends the user profile of K2 with additional contact and social details. Download, install and activate the plugin and all your Joomla!/K2 users will be able to add their expanded contact and social details in their profiles.
+"User Extended Fields for K2" extends the user profile of K2 with additional contact and social details.
+
+Download, install and activate the plugin and all your site's users will be able to add their expanded contact and social details in their profiles, using K2's profile page.
 
 
 ### FEATURES
-A K2 plugin that extends the K2 user profile page and author blocks with additional contact or social details.
+A K2 plugin that extends the K2 user profile page and author blocks (wherever it's displayed within K2) with additional contact or social details. You can fully control what's displayed or not. Especially in the case of intranets, K2 can be used as a personnel directory using this handy plugin.
 
 
 ### DEMO & SHOWCASE
