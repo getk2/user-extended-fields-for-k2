@@ -1,25 +1,38 @@
 User Extended Fields for K2
-===========================
+=========
 
-"User Extended Fields for K2" extends the user profile of K2 with additional contact and social details.
-
-Download, install and activate the plugin and all your Joomla!/K2 users will be able to add their expanded contact and social details in their profiles.
+"User Extended Fields for K2" extends the user profile of K2 with additional contact and social details. Download, install and activate the plugin and all your Joomla!/K2 users will be able to add their expanded contact and social details in their profiles.
 
 
-## REQUIREMENTS & LICENSE
-This is a K2 plugin and it requires that the component K2 version 2.5.2 or later be installed on your website. For additional information on K2, please visit the related entry here on the Joomla! Extensions Directory: http://extensions.joomla.org/extensions/news-production/content-construction/8061
-
-"User Extended Fields for K2" is a Joomla! plugin interfacing with K2. It's developed by JoomlaWorks & licensed under the GNU/GPL v2 license.
+### FEATURES
+A K2 plugin that extends the K2 user profile page and author blocks with additional contact or social details.
 
 
-## USEFUL LINKS
-Visit the K2 website: http://getk2.org
-Join the K2 community (support, tutorials, videos): http://getk2.org/community
+### DEMO & SHOWCASE
+Demo page of the plugin in a K2 user profile page: http://getk2.org/redir/demo/uef
 
 
-## DEMO
-Demo page of the plugin in a K2 user profile page:  http://getk2.org/redir/demo/uef
+### REQUIREMENTS
+This is a K2 plugin and the only basic requirements to use it are:
+
+- K2 v2.5.x or newer installed
+- Joomla 2.5 or 3.x installed
 
 
-## LEARN MORE
-Visit the User Extended Fields for K2 product page at: http://getk2.org/redir/uef
+### LICENSE
+This is a Joomla! extension developed by JoomlaWorks and released under the GNU/GPL v2 license.
+
+
+### ADDITIONAL INFO
+Some helpful links:
+
+- K2 - http://getk2.org
+- Joomla - http://www.joomla.org
+
+If you want to provide feedback for this K2 plugin, you may use the GitHub issue tracker here: https://github.com/joomlaworks/user-extended-fields-for-k2/issues
+
+
+## DOWNLOAD
+You can grab the latest release here: http://goo.gl/LfWMly (v3.0)
+
+To install this K2 plugin, download the file in your computer and then head over to the Joomla installer and choose to upload the file you just downloaded.
