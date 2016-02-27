@@ -31,7 +31,7 @@ Some helpful links:
 - K2 - http://getk2.org
 - Joomla - http://www.joomla.org
 
-If you want to provide feedback for this K2 plugin, you may use the GitHub issue tracker here: https://github.com/joomlaworks/user-extended-fields-for-k2/issues
+If you want to provide feedback for this K2 plugin, you may use the GitHub issue tracker here: https://github.com/getk2/user-extended-fields-for-k2/issues
 
 
 ## DOWNLOAD
