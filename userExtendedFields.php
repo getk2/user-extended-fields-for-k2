@@ -22,11 +22,11 @@ class plgK2Userextendedfields extends K2Plugin
 	var $plgCopyrightsStart = "\n\n<!-- JoomlaWorks \"User Extended Fields for K2\" Plugin (v2.1) starts here -->\n";
 	var $plgCopyrightsEnd = "\n<!-- JoomlaWorks \"User Extended Fields for K2\" Plugin (v2.1) ends here -->\n\n";
 
-	function plgK2Userextendedfields(&$subject, $params)
+
+	public function __construct(&$subject, $params)
 	{
 		// Load the plugin language file the proper way
 		JPlugin::loadLanguage('plg_k2_'.$this->pluginName, JPATH_ADMINISTRATOR);
-
 		parent::__construct($subject, $params);
 	}
 
