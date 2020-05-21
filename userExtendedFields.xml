@@ -317,7 +317,7 @@
         <folder>userExtendedFields</folder>
     </files>
     <languages>
-        <language tag="en-GB">language/en-GB/en-GB.plg_k2_userextendedfields.ini</language>
-        <language tag="en-GB">language/en-GB/en-GB.plg_k2_userextendedfields.sys.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_k2_userExtendedFields.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_k2_userExtendedFields.sys.ini</language>
     </languages>
 </extension>

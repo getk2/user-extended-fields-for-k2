@@ -24,7 +24,7 @@ class plgK2Userextendedfields extends K2Plugin
     public function __construct(&$subject, $params)
     {
         // Load the plugin language file the proper way
-        JPlugin::loadLanguage('plg_k2_'.strtolower($this->pluginName), JPATH_ADMINISTRATOR);
+        JPlugin::loadLanguage('plg_k2_'.$this->pluginName, JPATH_ADMINISTRATOR);
         parent::__construct($subject, $params);
     }
 
