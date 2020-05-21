@@ -75,7 +75,27 @@ defined('_JEXEC') or die;
     <div class="userExtendedFieldsSocialProfiles">
         <h3><?php echo JText::_('PLG_K2_UEF_SOCIAL_PROFILES'); ?></h3>
         <?php foreach ($socialProfilesArray as $social => $data): ?>
-        <a class="uefSocialLink" href="<?php echo $data['url']; ?>" title="<?php echo JText::_('PLG_K2_UEF_'.strtoupper($social)); ?>" target="_blank" rel="nofollow">
+        <?php
+            $url = $data['url'];
+            // B/C
+            if (strpos($url, 'http') === false) {
+                switch($social) {
+                    case 'facebook':
+                        $url = 'https://www.facebook.com/'.$url;
+                    case 'flickr':
+                        $url = 'https://www.flickr.com/'.$url;
+                    case 'linkedin':
+                        $url = 'https://www.linkedin.com/'.$url;
+                    case 'twitter':
+                        $url = 'https://twitter.com/'.$url;
+                    case 'vimeo':
+                        $url = 'https://vimeo.com/'.$url;
+                    case 'youtube':
+                        $url = 'https://www.youtube.com/'.$url;
+                }
+            }
+        ?>
+        <a class="uefSocialLink" href="<?php echo $url; ?>" title="<?php echo JText::_('PLG_K2_UEF_'.strtoupper($social)); ?>" target="_blank" rel="nofollow">
             <img alt="<?php echo JText::_('PLG_K2_UEF_'.strtoupper($social)); ?>" src="<?php echo $data['icon']; ?>" />
         </a>
         <?php endforeach; ?>
