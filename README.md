@@ -7,7 +7,7 @@ Download, install and activate the plugin and all your site's users will be able
 
 
 ### FEATURES
-A K2 plugin that extends the K2 user profile page and author blocks (wherever it's displayed within K2) with additional contact or social details. You can fully control what's displayed or not. Especially in the case of intranets, K2 can be used as a personnel directory using this handy plugin.
+A K2 plugin that extends the K2 user profile page and author blocks (wherever it is displayed within K2) with additional contact or social details. You can fully control what's displayed or not. Especially in the case of intranets, K2 can be used as a personnel directory using this handy plugin.
 
 
 ### DEMO & SHOWCASE
@@ -17,7 +17,7 @@ Demo page of the plugin in a K2 user profile page: http://getk2.org/redir/demo/u
 ### REQUIREMENTS
 This is a K2 plugin and the only basic requirements to use it are:
 
-- K2 v2.5.x or newer installed
+- K2 v2.9.x or newer installed
 - Joomla 2.5 or 3.x installed
 
 
@@ -38,3 +38,11 @@ If you want to provide feedback for this K2 plugin, you may use the GitHub issue
 You can grab the latest release here: http://goo.gl/LfWMly (v4.0 - released May 22nd, 2020)
 
 To install this K2 plugin, download the file in your computer and then head over to the Joomla installer and choose to upload the file you just downloaded.
+
+## CHANGELOG
+
+v4.0 - released May 22nd, 2020
+- Major rewrite for the plugin
+- Now features ~30 social providers
+- Removed deprecated social providers (Picasa, Google Plus etc.)
+- Updated all icons with a new SVG based set
