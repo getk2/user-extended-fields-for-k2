@@ -101,8 +101,8 @@ defined('_JEXEC') or die;
                 }
             }
         ?>
-        <a class="uefSocialLink" href="<?php echo $url; ?>" title="<?php echo JText::_('PLG_K2_UEF_'.strtoupper($social)); ?>" target="_blank" rel="nofollow">
-            <img alt="<?php echo JText::_('PLG_K2_UEF_'.strtoupper($social)); ?>" src="<?php echo $data['icon']; ?>" />
+        <a class="uefSocialLink" href="<?php echo $url; ?>" title="<?php echo JText::_('PLG_K2_UEF_SOCIAL_'.strtoupper($social)); ?>" target="_blank" rel="nofollow">
+            <img alt="<?php echo JText::_('PLG_K2_UEF_SOCIAL_'.strtoupper($social)); ?>" src="<?php echo $data['icon']; ?>" />
         </a>
         <?php endforeach; ?>
         <div class="clr"></div>
