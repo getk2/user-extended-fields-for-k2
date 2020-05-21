@@ -35,6 +35,6 @@ If you want to provide feedback for this K2 plugin, you may use the GitHub issue
 
 
 ## DOWNLOAD
-You can grab the latest release here: http://goo.gl/LfWMly (v3.0)
+You can grab the latest release here: http://goo.gl/LfWMly (v4.0 - released May 22nd, 2020)
 
 To install this K2 plugin, download the file in your computer and then head over to the Joomla installer and choose to upload the file you just downloaded.
