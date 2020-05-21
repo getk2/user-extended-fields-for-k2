@@ -82,16 +82,22 @@ defined('_JEXEC') or die;
                 switch($social) {
                     case 'facebook':
                         $url = 'https://www.facebook.com/'.$url;
+                        break;
                     case 'flickr':
                         $url = 'https://www.flickr.com/'.$url;
+                        break;
                     case 'linkedin':
                         $url = 'https://www.linkedin.com/'.$url;
+                        break;
                     case 'twitter':
                         $url = 'https://twitter.com/'.$url;
+                        break;
                     case 'vimeo':
                         $url = 'https://vimeo.com/'.$url;
+                        break;
                     case 'youtube':
                         $url = 'https://www.youtube.com/'.$url;
+                        break;
                 }
             }
         ?>
