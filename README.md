@@ -11,7 +11,7 @@ A K2 plugin that extends the K2 user profile page and author blocks (wherever it
 
 
 ### DEMO & SHOWCASE
-Demo page of the plugin in a K2 user profile page: http://getk2.org/redir/demo/uef
+Demo page of the plugin in a K2 user profile page: https://demo.getk2.org/show/author/44-jonathan-smith
 
 
 ### REQUIREMENTS
