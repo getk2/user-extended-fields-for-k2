@@ -28,8 +28,8 @@ This is a Joomla! extension developed by JoomlaWorks and released under the GNU/
 ### ADDITIONAL INFO
 Some helpful links:
 
-- K2 - http://getk2.org
-- Joomla - http://www.joomla.org
+- K2 - https://getk2.org
+- Joomla - https://www.joomla.org
 
 If you want to provide feedback for this K2 plugin, you may use the GitHub issue tracker here: https://github.com/getk2/user-extended-fields-for-k2/issues
 
